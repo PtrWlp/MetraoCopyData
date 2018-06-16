@@ -1,0 +1,16 @@
+{
+  "name": "Metrao Data Copy",
+  "version": "1.0",
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ],
+  "icons": { "48": "lagertoontje.png", "128": "lagertoontje.png" },
+  "browser_action": {
+      "name": "isolate plotted data into csv",
+      "default_icon": "lagertoontje.png"
+  },
+  "background": {
+    "scripts": ["metrao-background.js"]
+},
+  "manifest_version": 2
+}
